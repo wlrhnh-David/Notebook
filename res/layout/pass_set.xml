@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"/>
+    
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    
+    <EditText
+        android:id="@+id/edit_pass_set"
+        style="@style/SecondTextStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pass_set_edit_hint"
+        android:password="true" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"/>
+    
+    <EditText
+        android:id="@+id/edit_pass_set_again"
+        style="@style/SecondTextStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pass_set_edit_again_hint"
+        android:password="true"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/but_set_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/but_pass_set_cacncel" />
+
+        <Button
+            android:id="@+id/but_set_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/but_pass_set_ok" />
+    </LinearLayout>
+
+</LinearLayout>

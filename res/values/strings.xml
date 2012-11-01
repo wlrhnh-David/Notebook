@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="hello">"  Be Worthy ,  Be Record !"</string>
+    <string name="app_name">Mini Notebook</string>
+    
+    <string name="menu_new">New</string>
+    <string name="menu_restore">Restore</string>
+    <string name="menu_backup">Backup</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_pass">Set password</string>
+    <string name="menu_pass_cancel">Cancel password</string>
+    
+    <string name="menu_con_edit">Edit</string>
+    <string name="menu_con_delete">Delete</string>
+    
+    <string name="but_login_cancel">Cancel</string>
+    <string name="but_login_ok">OK</string>
+    <string name="pass_login_invalid">Password is invalid!</string>
+    
+    <string name="main_but_new">New record</string>
+    
+    <string name="detail_entry_title">Title</string>
+    <string name="detail_entry_date">Date</string>
+    <string name="detail_entry_emotion">Emotion</string>
+    <string name="detail_entry_content">Content</string>
+    <string name="detail_record_not_exist">No records !</string>
+    <string name="detail_menu_edit">Edit</string>
+    <string name="detail_but_sound_desc">Record sound</string>
+    <string name="detail_but_video_desc">Capture video</string>
+    <string name="detail_emotion_image_desc">Emotion image</string>
+    
+    
+    <string name="entry_title">Title</string>
+    <string name="entry_title_hint">Title</string>
+    <string name="entry_date">Date</string>
+    <string name="entry_content">Content</string>
+    <string name="entry_content_hint">Content</string>
+    <string name="entry_emotion">Emotion</string>
+    <string name="entry_but_cancel">Cancel</string>
+    <string name="entry_but_save">Save</string>
+    <string name="entry_save_success">Save successfully !</string>
+    <string name="entry_save_fail">Save failed !</string>
+    
+    <string name="edit_page">Edit the record</string>
+    <string name="new_page">Add a new record</string>
+    <string name="pass_page">Password protection</string>
+    <string name="login_page">Input password</string>
+    <string name="list_page">Record list</string>
+    <string name="detail_page">Detail of the record</string>
+    <string name="search_page">Search record</string>
+    
+    <string name="edit_but_sound_desc">Record sound</string>
+    <string name="edit_but_video_desc">Capture video</string>
+    <string name="edit_sound_delete_title">Delete Audio</string>
+    <string name="edit_video_delete_title">Delete Video</string>
+    <string name="edit_sound_delete_content">If you want to record sound again, the existed audio will be deleted, are you sure ?</string>
+    <string name="edit_video_delete_content">If you want to capture video again, the existed video will be deleted, are you sure ?</string>
+    <string name="edit_but_delete_cancel">Cancel</string>
+    <string name="edit_but_delete_sure">Sure</string>
+    <string name="edit_save_invalid">Title and content must not null same time !</string>
+    <string name="edit_no_content">"(No content !)"</string>
+    
+    <string name="del_dialog_title">Delete</string>
+    <string name="del_dialog_content">Are you sure ?</string>
+    <string name="del_dialog_but_ok">Sure</string>
+    <string name="del_dialog_but_cancel">Cancel</string>
+    <string name="del_success">Delete record successful !</string>
+    <string name="del_failed">Delete record failed !</string>
+    
+    <string name="backup_but_cancel">Cancel</string>
+    <string name="backup_file_not_existed">Backup file is not existed, please backup first.</string>
+    <string name="backup_file_failed">Backup failed !</string>
+    <string name="backup_no_ready">Can not backup !</string>
+    <string name="backup_succ">Backup successfully !</string>
+    <string name="restore_dialog_content">Restoring from SD card</string>
+    <string name="restore_dialog_but_cancel">Cancel</string>
+    <string name="restore_succ">Restore successfully !</string>
+   
+    <string name="search_edit_hint">Condition</string>
+    <string name="search_but_desc">Search button</string>
+    
+    <string name="pass_set_title">Input password</string>
+    <string name="pass_set_edit_hint">Input password</string>
+    <string name="pass_set_edit_again_hint">Input password again</string>
+    <string name="pass_edit_hint">password</string>
+    <string name="pass_but_ok">OK</string>
+    <string name="pass_but_cancel">Cancel</string>
+    <string name="but_pass_set_ok">Save</string>
+    <string name="but_pass_set_cacncel">Cancel</string>
+    
+    <string name="pass_set_succ">Password saved successfully !</string>
+    <string name="pass_set_not_same">Password twice is not same !</string>
+    <string name="pass_set_is_null">Password can not be null !</string>
+    <string name="pass_protection_cancel">Cancel password protection !</string>
+    
+    <string name="entry_but_sound_text_no">no sound</string>
+    <string name="entry_but_sound_text">has sound</string>
+    <string name="entry_but_video_text_no">no video</string>
+    <string name="entry_but_video_text">has video</string>
+    
+</resources>

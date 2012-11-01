@@ -1,0 +1,455 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AUTHORIY	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^	public static final String AUTHORIY = "com.zhntd.train.notebook.NotebookProvider";$/;"	f	class:NotebookMetaData
+BackupThread	src/com/zhntd/train/notebook/RecordListActivity.java	/^		public BackupThread(ProgressDialog proDialog) {$/;"	m	class:RecordListActivity.BackupThread
+BackupThread	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private class BackupThread extends Thread implements OnCancelListener,$/;"	c	class:RecordListActivity
+BuildConfig	gen/com/zhntd/train/notebook/BuildConfig.java	/^public final class BuildConfig {$/;"	c
+CONTENT_ID_URI_BASE	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final Uri CONTENT_ID_URI_BASE$/;"	f	class:NotebookMetaData.NotebookRecord
+CONTENT_TYPE	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final String CONTENT_TYPE = "vnd.android.cursor.dir\/vnd.notebookprovider.record";$/;"	f	class:NotebookMetaData.NotebookRecord
+CONTENT_TYPE_ITEM	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final String CONTENT_TYPE_ITEM = "vnd.android.cursor.item\/vnd.notebookprovider.record";$/;"	f	class:NotebookMetaData.NotebookRecord
+CONTENT_URI	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final Uri CONTENT_URI = Uri.parse("content:\/\/" + AUTHORIY$/;"	f	class:NotebookMetaData.NotebookRecord
+DATE_FORMAT	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final String DATE_FORMAT = "h:mm AA. MMM dd, yyyy";$/;"	f	class:Utils
+DATE_NAME_MEDIA	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final String DATE_NAME_MEDIA = "MM\/dd\/yyyy-hh:mm:ss";$/;"	f	class:Utils
+DBHelper	src/com/zhntd/train/notebook/db/DBHelper.java	/^	public DBHelper(Context context, String name, CursorFactory factory,$/;"	m	class:DBHelper
+DBHelper	src/com/zhntd/train/notebook/db/DBHelper.java	/^public class DBHelper extends SQLiteOpenHelper {$/;"	c
+DBNAME	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^	public static final String DBNAME = "notebook.db";$/;"	f	class:NotebookMetaData
+DBVERSION	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^	public static final int DBVERSION = 1;$/;"	f	class:NotebookMetaData
+DEBUG	gen/com/zhntd/train/notebook/BuildConfig.java	/^    public final static boolean DEBUG = true;$/;"	f	class:BuildConfig
+DELETE	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final int DELETE = 103;$/;"	f	class:Utils
+DataOperationHandler	src/com/zhntd/train/notebook/RecordListActivity.java	/^		public DataOperationHandler(Context context) {$/;"	m	class:RecordListActivity.DataOperationHandler
+DataOperationHandler	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private class DataOperationHandler extends AsyncQueryHandler {$/;"	c	class:RecordListActivity
+DetailActivity	src/com/zhntd/train/notebook/DetailActivity.java	/^public class DetailActivity extends Activity implements OnClickListener {$/;"	c
+EditActivity	src/com/zhntd/train/notebook/EditActivity.java	/^public class EditActivity extends Activity implements OnClickListener {$/;"	c
+FileOperation	src/com/zhntd/train/notebook/utils/FileOperation.java	/^public class FileOperation {$/;"	c
+HANDLER_DATA_CHANGED	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final int HANDLER_DATA_CHANGED = 105;$/;"	f	class:Utils
+HANDLER_SHOW_TOAST	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final int HANDLER_SHOW_TOAST = 106;$/;"	f	class:Utils
+INTENT_EDIT	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final String INTENT_EDIT = "com.zhntd.notebook.edit";$/;"	f	class:Utils
+INTENT_NEW	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final String INTENT_NEW = "com.zhntd.notebook.new";$/;"	f	class:Utils
+IS_PASS_PROTECT	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final String IS_PASS_PROTECT = "isPasswordProcted";$/;"	f	class:Utils
+InsertAndUpdateHandler	src/com/zhntd/train/notebook/EditActivity.java	/^		public InsertAndUpdateHandler(Context context) {$/;"	m	class:EditActivity.InsertAndUpdateHandler
+InsertAndUpdateHandler	src/com/zhntd/train/notebook/EditActivity.java	/^	private class InsertAndUpdateHandler extends AsyncQueryHandler {$/;"	c	class:EditActivity
+LoginActivity	src/com/zhntd/train/notebook/LoginActivity.java	/^public class LoginActivity extends Activity implements OnClickListener{$/;"	c
+MENU_EDIT	src/com/zhntd/train/notebook/DetailActivity.java	/^	private static final int MENU_EDIT = 1001;$/;"	f	class:DetailActivity	file:
+MyHandler	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private class MyHandler extends Handler {$/;"	c	class:RecordListActivity
+NotebookMetaData	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^public class NotebookMetaData {$/;"	c
+NotebookProvider	src/com/zhntd/train/notebook/provider/NotebookProvider.java	/^public class NotebookProvider extends ContentProvider {$/;"	c
+NotebookRecord	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^	public static final class NotebookRecord implements BaseColumns {$/;"	c	class:NotebookMetaData
+ORDERBY	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final String ORDERBY = "_id desc";$/;"	f	class:NotebookMetaData.NotebookRecord
+PASSWORD	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final String PASSWORD = "password";$/;"	f	class:Utils
+PASS_SHARE_FILE	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final String PASS_SHARE_FILE = "password_file";$/;"	f	class:Utils
+PATH	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final String PATH = "\/sdcard\/minibook\/backup";$/;"	f	class:Utils
+PATH_FOLDER	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final String PATH_FOLDER = "\/sdcard\/minibook";$/;"	f	class:Utils
+PROJECTION	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final String[] PROJECTION = new String[]{$/;"	f	class:NotebookMetaData.NotebookRecord
+PWD_SET	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final int PWD_SET = 104;$/;"	f	class:Utils
+PrimaryTextStyle	gen/com/zhntd/train/notebook/R.java	/^        public static final int PrimaryTextStyle=0x7f050000;$/;"	f	class:R.style
+PwdSetingActivity	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^public class PwdSetingActivity extends Activity implements OnClickListener {$/;"	c
+QueryHandler	src/com/zhntd/train/notebook/SearchActivity.java	/^		public QueryHandler(Context context) {$/;"	m	class:SearchActivity.QueryHandler
+QueryHandler	src/com/zhntd/train/notebook/SearchActivity.java	/^	private class QueryHandler extends AsyncQueryHandler {$/;"	c	class:SearchActivity
+R	gen/com/zhntd/train/notebook/R.java	/^public final class R {$/;"	c
+RECORD_COLLECTION	src/com/zhntd/train/notebook/provider/NotebookProvider.java	/^	public static final int RECORD_COLLECTION = 1;$/;"	f	class:NotebookProvider
+RECORD_SIGNLE	src/com/zhntd/train/notebook/provider/NotebookProvider.java	/^	public static final int RECORD_SIGNLE = 2;$/;"	f	class:NotebookProvider
+REPLACER	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final String REPLACER = "null";$/;"	f	class:Utils
+RESTORE_INSERT	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final int RESTORE_INSERT = 204;$/;"	f	class:Utils
+RESTORE_UPDATE	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final int RESTORE_UPDATE = 203;$/;"	f	class:Utils
+RecordListActivity	src/com/zhntd/train/notebook/RecordListActivity.java	/^public class RecordListActivity extends Activity implements OnClickListener {$/;"	c
+RestoreThread	src/com/zhntd/train/notebook/RecordListActivity.java	/^		public RestoreThread(ProgressDialog proDialog) {$/;"	m	class:RecordListActivity.RestoreThread
+RestoreThread	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private class RestoreThread extends Thread implements OnCancelListener,$/;"	c	class:RecordListActivity
+SEPERATOR	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final String SEPERATOR = "###";$/;"	f	class:Utils
+SOUND	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final int SOUND = 101;$/;"	f	class:Utils
+SOUND_REQUEST_CODE	src/com/zhntd/train/notebook/EditActivity.java	/^	private static final int SOUND_REQUEST_CODE = 1;$/;"	f	class:EditActivity	file:
+SPACES	src/com/zhntd/train/notebook/DetailActivity.java	/^	private static final String SPACES = "       ";$/;"	f	class:DetailActivity	file:
+SearchActivity	src/com/zhntd/train/notebook/SearchActivity.java	/^public class SearchActivity extends Activity {$/;"	c
+SecondTextStyle	gen/com/zhntd/train/notebook/R.java	/^        public static final int SecondTextStyle=0x7f050001;$/;"	f	class:R.style
+TBCONTENT	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final String TBCONTENT = "content";$/;"	f	class:NotebookMetaData.NotebookRecord
+TBCONTENT_INDEX	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final int TBCONTENT_INDEX = 2;$/;"	f	class:NotebookMetaData.NotebookRecord
+TBDATELONG	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final String TBDATELONG = "date_long";$/;"	f	class:NotebookMetaData.NotebookRecord
+TBDATELONG_INDEX	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final int TBDATELONG_INDEX = 5;$/;"	f	class:NotebookMetaData.NotebookRecord
+TBDATESTRING	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final String TBDATESTRING = "date_string";$/;"	f	class:NotebookMetaData.NotebookRecord
+TBDATESTRING_INDEX	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final int TBDATESTRING_INDEX = 4;$/;"	f	class:NotebookMetaData.NotebookRecord
+TBEMOTION	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final String TBEMOTION = "emotion";$/;"	f	class:NotebookMetaData.NotebookRecord
+TBEMOTION_INDEX	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final int TBEMOTION_INDEX = 3;$/;"	f	class:NotebookMetaData.NotebookRecord
+TBID_INDEX	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final int TBID_INDEX = 0;$/;"	f	class:NotebookMetaData.NotebookRecord
+TBNAME	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final String TBNAME = "records";$/;"	f	class:NotebookMetaData.NotebookRecord
+TBNAME	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^	public static final String TBNAME = "records";$/;"	f	class:NotebookMetaData
+TBSOUNDURI	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final String TBSOUNDURI = "sound_uri";$/;"	f	class:NotebookMetaData.NotebookRecord
+TBSOUNDURI_INDEX	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final int TBSOUNDURI_INDEX = 6;$/;"	f	class:NotebookMetaData.NotebookRecord
+TBTITLE	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final String TBTITLE = "title";$/;"	f	class:NotebookMetaData.NotebookRecord
+TBTITLE_INDEX	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final int TBTITLE_INDEX = 1;$/;"	f	class:NotebookMetaData.NotebookRecord
+TBVIDEOURI	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final String TBVIDEOURI = "video_uri";$/;"	f	class:NotebookMetaData.NotebookRecord
+TBVIDEOURI_INDEX	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^		public static final int TBVIDEOURI_INDEX = 7;$/;"	f	class:NotebookMetaData.NotebookRecord
+THREAD_BACKUP	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final int THREAD_BACKUP = 201;$/;"	f	class:Utils
+THREAD_RESTORE	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final int THREAD_RESTORE = 202;$/;"	f	class:Utils
+TOKEN	src/com/zhntd/train/notebook/EditActivity.java	/^	private static final int TOKEN = 2102;$/;"	f	class:EditActivity	file:
+TOKEN	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private static final int TOKEN = 1102;$/;"	f	class:RecordListActivity	file:
+TOKEN	src/com/zhntd/train/notebook/SearchActivity.java	/^	private static final int TOKEN = 3102;$/;"	f	class:SearchActivity	file:
+ThirdTextStyle	gen/com/zhntd/train/notebook/R.java	/^        public static final int ThirdTextStyle=0x7f050002;$/;"	f	class:R.style
+Utils	src/com/zhntd/train/notebook/utils/Utils.java	/^public class Utils {$/;"	c
+VIDEO	src/com/zhntd/train/notebook/utils/Utils.java	/^	public static final int VIDEO = 102;$/;"	f	class:Utils
+VIDEO_REQUEST_CODE	src/com/zhntd/train/notebook/EditActivity.java	/^	private static final int VIDEO_REQUEST_CODE = 2;$/;"	f	class:EditActivity	file:
+_id	src/com/zhntd/train/notebook/DetailActivity.java	/^	private int _id;$/;"	f	class:DetailActivity	file:
+_id	src/com/zhntd/train/notebook/EditActivity.java	/^	private int _id;$/;"	f	class:EditActivity	file:
+adapter	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private SimpleCursorAdapter adapter;$/;"	f	class:RecordListActivity	file:
+adapter	src/com/zhntd/train/notebook/SearchActivity.java	/^	private SimpleCursorAdapter adapter;$/;"	f	class:SearchActivity	file:
+addNewRecord	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private void addNewRecord() {$/;"	m	class:RecordListActivity	file:
+app_name	gen/com/zhntd/train/notebook/R.java	/^        public static final int app_name=0x7f040001;$/;"	f	class:R.string
+attr	gen/com/zhntd/train/notebook/R.java	/^    public static final class attr {$/;"	c	class:R
+b	gen/com/zhntd/train/notebook/R.java	/^        public static final int b=0x7f020000;$/;"	f	class:R.drawable
+backupLine	src/com/zhntd/train/notebook/utils/FileOperation.java	/^	public void backupLine(StringBuffer strBuffer) {$/;"	m	class:FileOperation
+backup_but_cancel	gen/com/zhntd/train/notebook/R.java	/^        public static final int backup_but_cancel=0x7f040038;$/;"	f	class:R.string
+backup_file_failed	gen/com/zhntd/train/notebook/R.java	/^        public static final int backup_file_failed=0x7f04003a;$/;"	f	class:R.string
+backup_file_not_existed	gen/com/zhntd/train/notebook/R.java	/^        public static final int backup_file_not_existed=0x7f040039;$/;"	f	class:R.string
+backup_no_ready	gen/com/zhntd/train/notebook/R.java	/^        public static final int backup_no_ready=0x7f04003b;$/;"	f	class:R.string
+backup_succ	gen/com/zhntd/train/notebook/R.java	/^        public static final int backup_succ=0x7f04003c;$/;"	f	class:R.string
+bundle	src/com/zhntd/train/notebook/DetailActivity.java	/^	private Bundle bundle;$/;"	f	class:DetailActivity	file:
+but_detail_sound	gen/com/zhntd/train/notebook/R.java	/^        public static final int but_detail_sound=0x7f070004;$/;"	f	class:R.id
+but_detail_video	gen/com/zhntd/train/notebook/R.java	/^        public static final int but_detail_video=0x7f070005;$/;"	f	class:R.id
+but_login_cancel	gen/com/zhntd/train/notebook/R.java	/^        public static final int but_login_cancel=0x7f04000a;$/;"	f	class:R.string
+but_login_cancel	gen/com/zhntd/train/notebook/R.java	/^        public static final int but_login_cancel=0x7f07001f;$/;"	f	class:R.id
+but_login_ok	gen/com/zhntd/train/notebook/R.java	/^        public static final int but_login_ok=0x7f04000b;$/;"	f	class:R.string
+but_login_ok	gen/com/zhntd/train/notebook/R.java	/^        public static final int but_login_ok=0x7f070020;$/;"	f	class:R.id
+but_pass_set_cacncel	gen/com/zhntd/train/notebook/R.java	/^        public static final int but_pass_set_cacncel=0x7f040049;$/;"	f	class:R.string
+but_pass_set_ok	gen/com/zhntd/train/notebook/R.java	/^        public static final int but_pass_set_ok=0x7f040048;$/;"	f	class:R.string
+but_search	gen/com/zhntd/train/notebook/R.java	/^        public static final int but_search=0x7f020001;$/;"	f	class:R.drawable
+but_search_go	gen/com/zhntd/train/notebook/R.java	/^        public static final int but_search_go=0x7f07002c;$/;"	f	class:R.id
+but_set_cancel	gen/com/zhntd/train/notebook/R.java	/^        public static final int but_set_cancel=0x7f070028;$/;"	f	class:R.id
+but_set_save	gen/com/zhntd/train/notebook/R.java	/^        public static final int but_set_save=0x7f070029;$/;"	f	class:R.id
+but_sound	gen/com/zhntd/train/notebook/R.java	/^        public static final int but_sound=0x7f020002;$/;"	f	class:R.drawable
+but_video	gen/com/zhntd/train/notebook/R.java	/^        public static final int but_video=0x7f020003;$/;"	f	class:R.drawable
+cancelButton	src/com/zhntd/train/notebook/EditActivity.java	/^	private Button cancelButton;$/;"	f	class:EditActivity	file:
+cancelButton	src/com/zhntd/train/notebook/LoginActivity.java	/^	private Button cancelButton;$/;"	f	class:LoginActivity	file:
+cancelButton	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^	private Button cancelButton;$/;"	f	class:PwdSetingActivity	file:
+cancelPwdProtection	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private void cancelPwdProtection() {$/;"	m	class:RecordListActivity	file:
+checkPassword	src/com/zhntd/train/notebook/LoginActivity.java	/^	private void checkPassword() {$/;"	m	class:LoginActivity	file:
+com.zhntd.train.notebook	gen/com/zhntd/train/notebook/BuildConfig.java	/^package com.zhntd.train.notebook;$/;"	p
+com.zhntd.train.notebook	gen/com/zhntd/train/notebook/R.java	/^package com.zhntd.train.notebook;$/;"	p
+com.zhntd.train.notebook	src/com/zhntd/train/notebook/DetailActivity.java	/^package com.zhntd.train.notebook;$/;"	p
+com.zhntd.train.notebook	src/com/zhntd/train/notebook/EditActivity.java	/^package com.zhntd.train.notebook;$/;"	p
+com.zhntd.train.notebook	src/com/zhntd/train/notebook/LoginActivity.java	/^package com.zhntd.train.notebook;$/;"	p
+com.zhntd.train.notebook	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^package com.zhntd.train.notebook;$/;"	p
+com.zhntd.train.notebook	src/com/zhntd/train/notebook/RecordListActivity.java	/^package com.zhntd.train.notebook;$/;"	p
+com.zhntd.train.notebook	src/com/zhntd/train/notebook/SearchActivity.java	/^package com.zhntd.train.notebook;$/;"	p
+com.zhntd.train.notebook.db	src/com/zhntd/train/notebook/db/DBHelper.java	/^package com.zhntd.train.notebook.db;$/;"	p
+com.zhntd.train.notebook.provider	src/com/zhntd/train/notebook/provider/NotebookProvider.java	/^package com.zhntd.train.notebook.provider;$/;"	p
+com.zhntd.train.notebook.utils	src/com/zhntd/train/notebook/utils/FileOperation.java	/^package com.zhntd.train.notebook.utils;$/;"	p
+com.zhntd.train.notebook.utils	src/com/zhntd/train/notebook/utils/NotebookMetaData.java	/^package com.zhntd.train.notebook.utils;$/;"	p
+com.zhntd.train.notebook.utils	src/com/zhntd/train/notebook/utils/Utils.java	/^package com.zhntd.train.notebook.utils;$/;"	p
+composeBundle	src/com/zhntd/train/notebook/DetailActivity.java	/^	private Bundle composeBundle() {$/;"	m	class:DetailActivity	file:
+composeBundleByCursor	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private Bundle composeBundleByCursor(Cursor cursor) {$/;"	m	class:RecordListActivity	file:
+composeBundleByCursor	src/com/zhntd/train/notebook/SearchActivity.java	/^	private Bundle composeBundleByCursor(Cursor cursor) {$/;"	m	class:SearchActivity	file:
+composeLineByCursor	src/com/zhntd/train/notebook/RecordListActivity.java	/^		private StringBuffer composeLineByCursor(Cursor cursor) {$/;"	m	class:RecordListActivity.BackupThread	file:
+contResolver	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private ContentResolver contResolver;$/;"	f	class:RecordListActivity	file:
+content	src/com/zhntd/train/notebook/DetailActivity.java	/^	private String content;$/;"	f	class:DetailActivity	file:
+contentEditText	src/com/zhntd/train/notebook/EditActivity.java	/^	private EditText contentEditText;$/;"	f	class:EditActivity	file:
+contentTextView	src/com/zhntd/train/notebook/DetailActivity.java	/^	private TextView contentTextView;$/;"	f	class:DetailActivity	file:
+createFile	src/com/zhntd/train/notebook/utils/FileOperation.java	/^	private boolean createFile() {$/;"	m	class:FileOperation	file:
+createFolder	src/com/zhntd/train/notebook/utils/FileOperation.java	/^	private boolean createFolder() {$/;"	m	class:FileOperation	file:
+dataHandler	src/com/zhntd/train/notebook/EditActivity.java	/^	private InsertAndUpdateHandler dataHandler;$/;"	f	class:EditActivity	file:
+dataOperationHandler	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private DataOperationHandler dataOperationHandler;$/;"	f	class:RecordListActivity	file:
+dateTextView	src/com/zhntd/train/notebook/DetailActivity.java	/^	private TextView dateTextView;$/;"	f	class:DetailActivity	file:
+date_long	src/com/zhntd/train/notebook/DetailActivity.java	/^	private long date_long;$/;"	f	class:DetailActivity	file:
+date_string	src/com/zhntd/train/notebook/DetailActivity.java	/^	private String date_string;$/;"	f	class:DetailActivity	file:
+db	src/com/zhntd/train/notebook/provider/NotebookProvider.java	/^	private SQLiteDatabase db;$/;"	f	class:NotebookProvider	file:
+del_dialog_but_cancel	gen/com/zhntd/train/notebook/R.java	/^        public static final int del_dialog_but_cancel=0x7f040035;$/;"	f	class:R.string
+del_dialog_but_ok	gen/com/zhntd/train/notebook/R.java	/^        public static final int del_dialog_but_ok=0x7f040034;$/;"	f	class:R.string
+del_dialog_content	gen/com/zhntd/train/notebook/R.java	/^        public static final int del_dialog_content=0x7f040033;$/;"	f	class:R.string
+del_dialog_title	gen/com/zhntd/train/notebook/R.java	/^        public static final int del_dialog_title=0x7f040032;$/;"	f	class:R.string
+del_failed	gen/com/zhntd/train/notebook/R.java	/^        public static final int del_failed=0x7f040037;$/;"	f	class:R.string
+del_success	gen/com/zhntd/train/notebook/R.java	/^        public static final int del_success=0x7f040036;$/;"	f	class:R.string
+delete	src/com/zhntd/train/notebook/provider/NotebookProvider.java	/^	public int delete(Uri uri, String selection, String[] selectionArgs) {$/;"	m	class:NotebookProvider
+deleteRecordById	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private boolean deleteRecordById() {$/;"	m	class:RecordListActivity	file:
+detail	gen/com/zhntd/train/notebook/R.java	/^        public static final int detail=0x7f030000;$/;"	f	class:R.layout
+detail_but_sound_desc	gen/com/zhntd/train/notebook/R.java	/^        public static final int detail_but_sound_desc=0x7f040014;$/;"	f	class:R.string
+detail_but_video_desc	gen/com/zhntd/train/notebook/R.java	/^        public static final int detail_but_video_desc=0x7f040015;$/;"	f	class:R.string
+detail_content	gen/com/zhntd/train/notebook/R.java	/^        public static final int detail_content=0x7f070003;$/;"	f	class:R.id
+detail_date	gen/com/zhntd/train/notebook/R.java	/^        public static final int detail_date=0x7f070001;$/;"	f	class:R.id
+detail_emotion_image_desc	gen/com/zhntd/train/notebook/R.java	/^        public static final int detail_emotion_image_desc=0x7f040016;$/;"	f	class:R.string
+detail_entry_content	gen/com/zhntd/train/notebook/R.java	/^        public static final int detail_entry_content=0x7f040011;$/;"	f	class:R.string
+detail_entry_date	gen/com/zhntd/train/notebook/R.java	/^        public static final int detail_entry_date=0x7f04000f;$/;"	f	class:R.string
+detail_entry_emotion	gen/com/zhntd/train/notebook/R.java	/^        public static final int detail_entry_emotion=0x7f040010;$/;"	f	class:R.string
+detail_entry_title	gen/com/zhntd/train/notebook/R.java	/^        public static final int detail_entry_title=0x7f04000e;$/;"	f	class:R.string
+detail_menu_edit	gen/com/zhntd/train/notebook/R.java	/^        public static final int detail_menu_edit=0x7f040013;$/;"	f	class:R.string
+detail_page	gen/com/zhntd/train/notebook/R.java	/^        public static final int detail_page=0x7f040026;$/;"	f	class:R.string
+detail_record_not_exist	gen/com/zhntd/train/notebook/R.java	/^        public static final int detail_record_not_exist=0x7f040012;$/;"	f	class:R.string
+detail_title	gen/com/zhntd/train/notebook/R.java	/^        public static final int detail_title=0x7f070000;$/;"	f	class:R.id
+doBackupReady	src/com/zhntd/train/notebook/utils/FileOperation.java	/^	public boolean doBackupReady() {$/;"	m	class:FileOperation
+doReaderClose	src/com/zhntd/train/notebook/utils/FileOperation.java	/^	public void doReaderClose() {$/;"	m	class:FileOperation
+doRestoreReady	src/com/zhntd/train/notebook/utils/FileOperation.java	/^	public void doRestoreReady () {$/;"	m	class:FileOperation
+doWriterClose	src/com/zhntd/train/notebook/utils/FileOperation.java	/^	public void doWriterClose() {$/;"	m	class:FileOperation
+drawable	gen/com/zhntd/train/notebook/R.java	/^    public static final class drawable {$/;"	c	class:R
+edit	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit=0x7f030001;$/;"	f	class:R.layout
+editFromDetail	src/com/zhntd/train/notebook/DetailActivity.java	/^	private void editFromDetail() {$/;"	m	class:DetailActivity	file:
+editLogin	gen/com/zhntd/train/notebook/R.java	/^        public static final int editLogin=0x7f07001e;$/;"	f	class:R.id
+editRecord	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private void editRecord() {$/;"	m	class:RecordListActivity	file:
+edit_Pass	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_Pass=0x7f070025;$/;"	f	class:R.id
+edit_but_delete_cancel	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_but_delete_cancel=0x7f04002e;$/;"	f	class:R.string
+edit_but_delete_sure	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_but_delete_sure=0x7f04002f;$/;"	f	class:R.string
+edit_but_sound_desc	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_but_sound_desc=0x7f040028;$/;"	f	class:R.string
+edit_but_video_desc	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_but_video_desc=0x7f040029;$/;"	f	class:R.string
+edit_entry_title	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_entry_title=0x7f070008;$/;"	f	class:R.id
+edit_no_content	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_no_content=0x7f040031;$/;"	f	class:R.string
+edit_page	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_page=0x7f040021;$/;"	f	class:R.string
+edit_pass_set	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_pass_set=0x7f070026;$/;"	f	class:R.id
+edit_pass_set_again	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_pass_set_again=0x7f070027;$/;"	f	class:R.id
+edit_save_invalid	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_save_invalid=0x7f040030;$/;"	f	class:R.string
+edit_sound_delete_content	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_sound_delete_content=0x7f04002c;$/;"	f	class:R.string
+edit_sound_delete_title	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_sound_delete_title=0x7f04002a;$/;"	f	class:R.string
+edit_video_delete_content	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_video_delete_content=0x7f04002d;$/;"	f	class:R.string
+edit_video_delete_title	gen/com/zhntd/train/notebook/R.java	/^        public static final int edit_video_delete_title=0x7f04002b;$/;"	f	class:R.string
+emotion	src/com/zhntd/train/notebook/DetailActivity.java	/^	private float emotion;$/;"	f	class:DetailActivity	file:
+emotionImageView	src/com/zhntd/train/notebook/DetailActivity.java	/^	private ImageView emotionImageView;$/;"	f	class:DetailActivity	file:
+emotionRatingBar	src/com/zhntd/train/notebook/EditActivity.java	/^	private RatingBar emotionRatingBar;$/;"	f	class:EditActivity	file:
+emotion_imageView	gen/com/zhntd/train/notebook/R.java	/^        public static final int emotion_imageView=0x7f070002;$/;"	f	class:R.id
+entry_but_cancel	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_but_cancel=0x7f04001d;$/;"	f	class:R.string
+entry_but_cancel	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_but_cancel=0x7f07001c;$/;"	f	class:R.id
+entry_but_save	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_but_save=0x7f04001e;$/;"	f	class:R.string
+entry_but_save	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_but_save=0x7f07001d;$/;"	f	class:R.id
+entry_but_sound	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_but_sound=0x7f070015;$/;"	f	class:R.id
+entry_but_sound_text	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_but_sound_text=0x7f04004f;$/;"	f	class:R.string
+entry_but_sound_text	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_but_sound_text=0x7f070016;$/;"	f	class:R.id
+entry_but_sound_text_no	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_but_sound_text_no=0x7f04004e;$/;"	f	class:R.string
+entry_but_video	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_but_video=0x7f070018;$/;"	f	class:R.id
+entry_but_video_text	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_but_video_text=0x7f040051;$/;"	f	class:R.string
+entry_but_video_text	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_but_video_text=0x7f070019;$/;"	f	class:R.id
+entry_but_video_text_no	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_but_video_text_no=0x7f040050;$/;"	f	class:R.string
+entry_content	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_content=0x7f04001a;$/;"	f	class:R.string
+entry_content_hint	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_content_hint=0x7f04001b;$/;"	f	class:R.string
+entry_date	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_date=0x7f040019;$/;"	f	class:R.string
+entry_edit_content	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_edit_content=0x7f070011;$/;"	f	class:R.id
+entry_edit_title	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_edit_title=0x7f070009;$/;"	f	class:R.id
+entry_emotion	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_emotion=0x7f04001c;$/;"	f	class:R.string
+entry_ratingbar_emotion	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_ratingbar_emotion=0x7f07000d;$/;"	f	class:R.id
+entry_save_fail	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_save_fail=0x7f040020;$/;"	f	class:R.string
+entry_save_success	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_save_success=0x7f04001f;$/;"	f	class:R.string
+entry_text_content	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_text_content=0x7f070010;$/;"	f	class:R.id
+entry_text_emotion	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_text_emotion=0x7f07000c;$/;"	f	class:R.id
+entry_title	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_title=0x7f040017;$/;"	f	class:R.string
+entry_title_hint	gen/com/zhntd/train/notebook/R.java	/^        public static final int entry_title_hint=0x7f040018;$/;"	f	class:R.string
+f	gen/com/zhntd/train/notebook/R.java	/^        public static final int f=0x7f020004;$/;"	f	class:R.drawable
+file	src/com/zhntd/train/notebook/utils/FileOperation.java	/^	private File file;$/;"	f	class:FileOperation	file:
+fileOperation	src/com/zhntd/train/notebook/RecordListActivity.java	/^		FileOperation fileOperation = new FileOperation();$/;"	f	class:RecordListActivity.BackupThread
+fileOperation	src/com/zhntd/train/notebook/RecordListActivity.java	/^		FileOperation fileOperation;$/;"	f	class:RecordListActivity.RestoreThread
+folder	src/com/zhntd/train/notebook/utils/FileOperation.java	/^	private File folder;$/;"	f	class:FileOperation	file:
+g	gen/com/zhntd/train/notebook/R.java	/^        public static final int g=0x7f020005;$/;"	f	class:R.drawable
+getContentValues	src/com/zhntd/train/notebook/EditActivity.java	/^	private ContentValues getContentValues() {$/;"	m	class:EditActivity	file:
+getIdList	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private ArrayList<String> getIdList() {$/;"	m	class:RecordListActivity	file:
+getType	src/com/zhntd/train/notebook/provider/NotebookProvider.java	/^	public String getType(Uri uri) {$/;"	m	class:NotebookProvider
+getValuesByFile	src/com/zhntd/train/notebook/RecordListActivity.java	/^		private ContentValues getValuesByFile(String[] strs, int id) {$/;"	m	class:RecordListActivity.RestoreThread	file:
+handleMessage	src/com/zhntd/train/notebook/RecordListActivity.java	/^		public void handleMessage(Message msg) {$/;"	m	class:RecordListActivity.MyHandler
+hasSound	src/com/zhntd/train/notebook/EditActivity.java	/^	private boolean hasSound = true;$/;"	f	class:EditActivity	file:
+hasVideo	src/com/zhntd/train/notebook/EditActivity.java	/^	private boolean hasVideo = true;$/;"	f	class:EditActivity	file:
+heart	gen/com/zhntd/train/notebook/R.java	/^        public static final int heart=0x7f020006;$/;"	f	class:R.drawable
+hello	gen/com/zhntd/train/notebook/R.java	/^        public static final int hello=0x7f040000;$/;"	f	class:R.string
+helper	src/com/zhntd/train/notebook/provider/NotebookProvider.java	/^	private DBHelper helper;$/;"	f	class:NotebookProvider	file:
+ic_launcher	gen/com/zhntd/train/notebook/R.java	/^        public static final int ic_launcher=0x7f020007;$/;"	f	class:R.drawable
+id	gen/com/zhntd/train/notebook/R.java	/^    public static final class id {$/;"	c	class:R
+idList	src/com/zhntd/train/notebook/RecordListActivity.java	/^		ArrayList<String> idList;$/;"	f	class:RecordListActivity.RestoreThread
+initView	src/com/zhntd/train/notebook/DetailActivity.java	/^	private void initView() {$/;"	m	class:DetailActivity	file:
+initView	src/com/zhntd/train/notebook/EditActivity.java	/^	private void initView(Intent intent) {$/;"	m	class:EditActivity	file:
+initView	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^	private void initView() {$/;"	m	class:PwdSetingActivity	file:
+insert	src/com/zhntd/train/notebook/provider/NotebookProvider.java	/^	public Uri insert(Uri uri, ContentValues values) {$/;"	m	class:NotebookProvider
+isEdit	src/com/zhntd/train/notebook/EditActivity.java	/^	private boolean isEdit = false;$/;"	f	class:EditActivity	file:
+isFileExisted	src/com/zhntd/train/notebook/utils/FileOperation.java	/^	public boolean isFileExisted() {$/;"	m	class:FileOperation
+isFirst	src/com/zhntd/train/notebook/RecordListActivity.java	/^		private boolean isFirst = true;$/;"	f	class:RecordListActivity.DataOperationHandler	file:
+isFirst	src/com/zhntd/train/notebook/SearchActivity.java	/^		private boolean isFirst = true;;$/;"	f	class:SearchActivity.QueryHandler	file:
+isInvalid	src/com/zhntd/train/notebook/EditActivity.java	/^	private boolean isInvalid() {$/;"	m	class:EditActivity	file:
+isPassProtected	src/com/zhntd/train/notebook/LoginActivity.java	/^	private boolean isPassProtected = false;$/;"	f	class:LoginActivity	file:
+isPassProtected	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^	private boolean isPassProtected = false;$/;"	f	class:PwdSetingActivity	file:
+layout	gen/com/zhntd/train/notebook/R.java	/^    public static final class layout {$/;"	c	class:R
+linear1	gen/com/zhntd/train/notebook/R.java	/^        public static final int linear1=0x7f070007;$/;"	f	class:R.id
+linear2	gen/com/zhntd/train/notebook/R.java	/^        public static final int linear2=0x7f07000b;$/;"	f	class:R.id
+linear3	gen/com/zhntd/train/notebook/R.java	/^        public static final int linear3=0x7f07000f;$/;"	f	class:R.id
+linear4	gen/com/zhntd/train/notebook/R.java	/^        public static final int linear4=0x7f070013;$/;"	f	class:R.id
+linear5	gen/com/zhntd/train/notebook/R.java	/^        public static final int linear5=0x7f07001b;$/;"	f	class:R.id
+linear6	gen/com/zhntd/train/notebook/R.java	/^        public static final int linear6=0x7f070014;$/;"	f	class:R.id
+linear7	gen/com/zhntd/train/notebook/R.java	/^        public static final int linear7=0x7f070017;$/;"	f	class:R.id
+list_page	gen/com/zhntd/train/notebook/R.java	/^        public static final int list_page=0x7f040025;$/;"	f	class:R.string
+login	gen/com/zhntd/train/notebook/R.java	/^        public static final int login=0x7f030002;$/;"	f	class:R.layout
+loginEditText	src/com/zhntd/train/notebook/LoginActivity.java	/^	private EditText loginEditText;$/;"	f	class:LoginActivity	file:
+login_page	gen/com/zhntd/train/notebook/R.java	/^        public static final int login_page=0x7f040024;$/;"	f	class:R.string
+m	gen/com/zhntd/train/notebook/R.java	/^        public static final int m=0x7f020008;$/;"	f	class:R.drawable
+mActivity	src/com/zhntd/train/notebook/EditActivity.java	/^		protected final WeakReference<EditActivity> mActivity;$/;"	f	class:EditActivity.InsertAndUpdateHandler
+mActivity	src/com/zhntd/train/notebook/RecordListActivity.java	/^		private RecordListActivity mActivity;$/;"	f	class:RecordListActivity.DataOperationHandler	file:
+mActivity	src/com/zhntd/train/notebook/SearchActivity.java	/^		protected final WeakReference<SearchActivity> mActivity;$/;"	f	class:SearchActivity.QueryHandler
+mCanceled	src/com/zhntd/train/notebook/RecordListActivity.java	/^		boolean mCanceled = false;$/;"	f	class:RecordListActivity.BackupThread
+mCanceled	src/com/zhntd/train/notebook/RecordListActivity.java	/^		boolean mCanceled = false;$/;"	f	class:RecordListActivity.RestoreThread
+main	gen/com/zhntd/train/notebook/R.java	/^        public static final int main=0x7f030003;$/;"	f	class:R.layout
+mainListView	gen/com/zhntd/train/notebook/R.java	/^        public static final int mainListView=0x7f070024;$/;"	f	class:R.id
+main_but_new	gen/com/zhntd/train/notebook/R.java	/^        public static final int main_but_new=0x7f04000d;$/;"	f	class:R.string
+main_but_new	gen/com/zhntd/train/notebook/R.java	/^        public static final int main_but_new=0x7f070023;$/;"	f	class:R.id
+menu	gen/com/zhntd/train/notebook/R.java	/^    public static final class menu {$/;"	c	class:R
+menu_backup	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_backup=0x7f020009;$/;"	f	class:R.drawable
+menu_backup	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_backup=0x7f040004;$/;"	f	class:R.string
+menu_backup	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_backup=0x7f070030;$/;"	f	class:R.id
+menu_con_delete	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_con_delete=0x7f040009;$/;"	f	class:R.string
+menu_con_delete	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_con_delete=0x7f070035;$/;"	f	class:R.id
+menu_con_edit	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_con_edit=0x7f040008;$/;"	f	class:R.string
+menu_con_edit	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_con_edit=0x7f070034;$/;"	f	class:R.id
+menu_delete	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_delete=0x7f02000a;$/;"	f	class:R.drawable
+menu_new	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_new=0x7f02000b;$/;"	f	class:R.drawable
+menu_new	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_new=0x7f040002;$/;"	f	class:R.string
+menu_new	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_new=0x7f07002e;$/;"	f	class:R.id
+menu_pass	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_pass=0x7f02000c;$/;"	f	class:R.drawable
+menu_pass	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_pass=0x7f040006;$/;"	f	class:R.string
+menu_pass	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_pass=0x7f070032;$/;"	f	class:R.id
+menu_pass_cancel	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_pass_cancel=0x7f040007;$/;"	f	class:R.string
+menu_pass_cancel	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_pass_cancel=0x7f070033;$/;"	f	class:R.id
+menu_restore	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_restore=0x7f02000d;$/;"	f	class:R.drawable
+menu_restore	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_restore=0x7f040003;$/;"	f	class:R.string
+menu_restore	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_restore=0x7f07002f;$/;"	f	class:R.id
+menu_search	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_search=0x7f02000e;$/;"	f	class:R.drawable
+menu_search	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_search=0x7f040005;$/;"	f	class:R.string
+menu_search	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_search=0x7f070031;$/;"	f	class:R.id
+menu_sound	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_sound=0x7f02000f;$/;"	f	class:R.drawable
+menu_video	gen/com/zhntd/train/notebook/R.java	/^        public static final int menu_video=0x7f020010;$/;"	f	class:R.drawable
+menuall	gen/com/zhntd/train/notebook/R.java	/^        public static final int menuall=0x7f060000;$/;"	f	class:R.menu
+menucontext	gen/com/zhntd/train/notebook/R.java	/^        public static final int menucontext=0x7f060001;$/;"	f	class:R.menu
+msg	src/com/zhntd/train/notebook/RecordListActivity.java	/^		Message msg;$/;"	f	class:RecordListActivity.RestoreThread
+msg	src/com/zhntd/train/notebook/RecordListActivity.java	/^		Message msg;;$/;"	f	class:RecordListActivity.BackupThread
+myHandler	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private Handler myHandler;$/;"	f	class:RecordListActivity	file:
+newRecordButton	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private Button newRecordButton;$/;"	f	class:RecordListActivity	file:
+newSoundUri	src/com/zhntd/train/notebook/EditActivity.java	/^	private Uri newSoundUri;$/;"	f	class:EditActivity	file:
+newVideoUri	src/com/zhntd/train/notebook/EditActivity.java	/^	private Uri newVideoUri;$/;"	f	class:EditActivity	file:
+new_page	gen/com/zhntd/train/notebook/R.java	/^        public static final int new_page=0x7f040022;$/;"	f	class:R.string
+note	gen/com/zhntd/train/notebook/R.java	/^        public static final int note=0x7f020011;$/;"	f	class:R.drawable
+o	gen/com/zhntd/train/notebook/R.java	/^        public static final int o=0x7f020012;$/;"	f	class:R.drawable
+observer	src/com/zhntd/train/notebook/RecordListActivity.java	/^	ContentObserver observer = new ContentObserver(null) {$/;"	f	class:RecordListActivity
+okButton	src/com/zhntd/train/notebook/LoginActivity.java	/^	private Button okButton;$/;"	f	class:LoginActivity	file:
+onActivityResult	src/com/zhntd/train/notebook/EditActivity.java	/^	protected void onActivityResult(int requestCode, int resultCode, Intent data) {$/;"	m	class:EditActivity
+onCancel	src/com/zhntd/train/notebook/RecordListActivity.java	/^		public void onCancel(DialogInterface dialog) {$/;"	m	class:RecordListActivity.BackupThread
+onCancel	src/com/zhntd/train/notebook/RecordListActivity.java	/^		public void onCancel(DialogInterface dialog) {$/;"	m	class:RecordListActivity.RestoreThread
+onClick	src/com/zhntd/train/notebook/DetailActivity.java	/^	public void onClick(View v) {$/;"	m	class:DetailActivity
+onClick	src/com/zhntd/train/notebook/EditActivity.java	/^	public void onClick(View v) {$/;"	m	class:EditActivity
+onClick	src/com/zhntd/train/notebook/LoginActivity.java	/^	public void onClick(View v) {$/;"	m	class:LoginActivity
+onClick	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^	public void onClick(View v) {$/;"	m	class:PwdSetingActivity
+onClick	src/com/zhntd/train/notebook/RecordListActivity.java	/^		public void onClick(DialogInterface dialog, int which) {$/;"	m	class:RecordListActivity.BackupThread
+onClick	src/com/zhntd/train/notebook/RecordListActivity.java	/^		public void onClick(DialogInterface dialog, int which) {$/;"	m	class:RecordListActivity.RestoreThread
+onClick	src/com/zhntd/train/notebook/RecordListActivity.java	/^	public void onClick(View v) {$/;"	m	class:RecordListActivity
+onContextItemSelected	src/com/zhntd/train/notebook/RecordListActivity.java	/^	public boolean onContextItemSelected(MenuItem item) {$/;"	m	class:RecordListActivity
+onCreate	src/com/zhntd/train/notebook/DetailActivity.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:DetailActivity
+onCreate	src/com/zhntd/train/notebook/EditActivity.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:EditActivity
+onCreate	src/com/zhntd/train/notebook/LoginActivity.java	/^	public void onCreate(Bundle savedInstanceState) {$/;"	m	class:LoginActivity
+onCreate	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:PwdSetingActivity
+onCreate	src/com/zhntd/train/notebook/RecordListActivity.java	/^	public void onCreate(Bundle savedInstanceState) {$/;"	m	class:RecordListActivity
+onCreate	src/com/zhntd/train/notebook/SearchActivity.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:SearchActivity
+onCreate	src/com/zhntd/train/notebook/db/DBHelper.java	/^	public void onCreate(SQLiteDatabase db) {$/;"	m	class:DBHelper
+onCreate	src/com/zhntd/train/notebook/provider/NotebookProvider.java	/^	public boolean onCreate() {$/;"	m	class:NotebookProvider
+onCreateContextMenu	src/com/zhntd/train/notebook/RecordListActivity.java	/^	public void onCreateContextMenu(ContextMenu menu, View v,$/;"	m	class:RecordListActivity
+onCreateOptionsMenu	src/com/zhntd/train/notebook/DetailActivity.java	/^	public boolean onCreateOptionsMenu(Menu menu) {$/;"	m	class:DetailActivity
+onCreateOptionsMenu	src/com/zhntd/train/notebook/RecordListActivity.java	/^	public boolean onCreateOptionsMenu(Menu menu) {$/;"	m	class:RecordListActivity
+onDeleteComplete	src/com/zhntd/train/notebook/RecordListActivity.java	/^		protected void onDeleteComplete(int token, Object cookie, int result) {$/;"	m	class:RecordListActivity.DataOperationHandler
+onDestroy	src/com/zhntd/train/notebook/RecordListActivity.java	/^	protected void onDestroy() {$/;"	m	class:RecordListActivity
+onInsertComplete	src/com/zhntd/train/notebook/EditActivity.java	/^		protected void onInsertComplete(int token, Object cookie, Uri rowUri) {$/;"	m	class:EditActivity.InsertAndUpdateHandler
+onOptionsItemSelected	src/com/zhntd/train/notebook/DetailActivity.java	/^	public boolean onOptionsItemSelected(MenuItem item) {$/;"	m	class:DetailActivity
+onOptionsItemSelected	src/com/zhntd/train/notebook/RecordListActivity.java	/^	public boolean onOptionsItemSelected(MenuItem item) {$/;"	m	class:RecordListActivity
+onPrepareOptionsMenu	src/com/zhntd/train/notebook/RecordListActivity.java	/^	public boolean onPrepareOptionsMenu(Menu menu) {$/;"	m	class:RecordListActivity
+onQueryComplete	src/com/zhntd/train/notebook/RecordListActivity.java	/^		protected void onQueryComplete(int token, Object cookie, Cursor cursor) {$/;"	m	class:RecordListActivity.DataOperationHandler
+onQueryComplete	src/com/zhntd/train/notebook/SearchActivity.java	/^		protected void onQueryComplete(int token, Object cookie, Cursor cursor) {$/;"	m	class:SearchActivity.QueryHandler
+onUpdateComplete	src/com/zhntd/train/notebook/EditActivity.java	/^		protected void onUpdateComplete(int token, Object cookie, int count) {$/;"	m	class:EditActivity.InsertAndUpdateHandler
+onUpgrade	src/com/zhntd/train/notebook/db/DBHelper.java	/^	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {$/;"	m	class:DBHelper
+pass	gen/com/zhntd/train/notebook/R.java	/^        public static final int pass=0x7f030004;$/;"	f	class:R.layout
+passAgainEditText	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^	private EditText passAgainEditText;$/;"	f	class:PwdSetingActivity	file:
+passEditText	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^	private EditText passEditText;$/;"	f	class:PwdSetingActivity	file:
+pass_but_cancel	gen/com/zhntd/train/notebook/R.java	/^        public static final int pass_but_cancel=0x7f040047;$/;"	f	class:R.string
+pass_but_ok	gen/com/zhntd/train/notebook/R.java	/^        public static final int pass_but_ok=0x7f040046;$/;"	f	class:R.string
+pass_edit_hint	gen/com/zhntd/train/notebook/R.java	/^        public static final int pass_edit_hint=0x7f040045;$/;"	f	class:R.string
+pass_login_invalid	gen/com/zhntd/train/notebook/R.java	/^        public static final int pass_login_invalid=0x7f04000c;$/;"	f	class:R.string
+pass_page	gen/com/zhntd/train/notebook/R.java	/^        public static final int pass_page=0x7f040023;$/;"	f	class:R.string
+pass_protection_cancel	gen/com/zhntd/train/notebook/R.java	/^        public static final int pass_protection_cancel=0x7f04004d;$/;"	f	class:R.string
+pass_set	gen/com/zhntd/train/notebook/R.java	/^        public static final int pass_set=0x7f030005;$/;"	f	class:R.layout
+pass_set_edit_again_hint	gen/com/zhntd/train/notebook/R.java	/^        public static final int pass_set_edit_again_hint=0x7f040044;$/;"	f	class:R.string
+pass_set_edit_hint	gen/com/zhntd/train/notebook/R.java	/^        public static final int pass_set_edit_hint=0x7f040043;$/;"	f	class:R.string
+pass_set_is_null	gen/com/zhntd/train/notebook/R.java	/^        public static final int pass_set_is_null=0x7f04004c;$/;"	f	class:R.string
+pass_set_not_same	gen/com/zhntd/train/notebook/R.java	/^        public static final int pass_set_not_same=0x7f04004b;$/;"	f	class:R.string
+pass_set_succ	gen/com/zhntd/train/notebook/R.java	/^        public static final int pass_set_succ=0x7f04004a;$/;"	f	class:R.string
+pass_set_title	gen/com/zhntd/train/notebook/R.java	/^        public static final int pass_set_title=0x7f040042;$/;"	f	class:R.string
+password	src/com/zhntd/train/notebook/LoginActivity.java	/^	private String password;$/;"	f	class:LoginActivity	file:
+password	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^	private String password;$/;"	f	class:PwdSetingActivity	file:
+preferences	src/com/zhntd/train/notebook/LoginActivity.java	/^	private SharedPreferences preferences;$/;"	f	class:LoginActivity	file:
+proDialog	src/com/zhntd/train/notebook/RecordListActivity.java	/^		ProgressDialog proDialog;$/;"	f	class:RecordListActivity.BackupThread
+proDialog	src/com/zhntd/train/notebook/RecordListActivity.java	/^		ProgressDialog proDialog;$/;"	f	class:RecordListActivity.RestoreThread
+pwdPreferences	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^	private SharedPreferences pwdPreferences;$/;"	f	class:PwdSetingActivity	file:
+query	src/com/zhntd/train/notebook/provider/NotebookProvider.java	/^	public Cursor query(Uri uri, String[] projection, String selection,$/;"	m	class:NotebookProvider
+queryHandler	src/com/zhntd/train/notebook/SearchActivity.java	/^	private QueryHandler queryHandler;$/;"	f	class:SearchActivity	file:
+readLine	src/com/zhntd/train/notebook/utils/FileOperation.java	/^	public String readLine() {$/;"	m	class:FileOperation
+reader	src/com/zhntd/train/notebook/utils/FileOperation.java	/^	private BufferedReader reader;$/;"	f	class:FileOperation	file:
+recordListView	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private ListView recordListView;$/;"	f	class:RecordListActivity	file:
+recordsHashMap	src/com/zhntd/train/notebook/provider/NotebookProvider.java	/^	public static HashMap<String, String> recordsHashMap = null;$/;"	f	class:NotebookProvider
+replaceByIcon	src/com/zhntd/train/notebook/DetailActivity.java	/^	private SpannableString replaceByIcon(String str) {$/;"	m	class:DetailActivity	file:
+reset	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^	private void reset() {$/;"	m	class:PwdSetingActivity	file:
+restore_dialog_but_cancel	gen/com/zhntd/train/notebook/R.java	/^        public static final int restore_dialog_but_cancel=0x7f04003e;$/;"	f	class:R.string
+restore_dialog_content	gen/com/zhntd/train/notebook/R.java	/^        public static final int restore_dialog_content=0x7f04003d;$/;"	f	class:R.string
+restore_succ	gen/com/zhntd/train/notebook/R.java	/^        public static final int restore_succ=0x7f04003f;$/;"	f	class:R.string
+run	src/com/zhntd/train/notebook/RecordListActivity.java	/^		public void run() {$/;"	m	class:RecordListActivity.BackupThread
+run	src/com/zhntd/train/notebook/RecordListActivity.java	/^		public void run() {$/;"	m	class:RecordListActivity.RestoreThread
+saveButton	src/com/zhntd/train/notebook/EditActivity.java	/^	private Button saveButton;$/;"	f	class:EditActivity	file:
+saveButton	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^	private Button saveButton;$/;"	f	class:PwdSetingActivity	file:
+saveEditRecord	src/com/zhntd/train/notebook/EditActivity.java	/^	private void saveEditRecord() {$/;"	m	class:EditActivity	file:
+saveNewRecord	src/com/zhntd/train/notebook/EditActivity.java	/^	private void saveNewRecord() {$/;"	m	class:EditActivity	file:
+savePassword	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^	private void savePassword() {$/;"	m	class:PwdSetingActivity	file:
+searcImage	gen/com/zhntd/train/notebook/R.java	/^        public static final int searcImage=0x7f07002a;$/;"	f	class:R.id
+search	gen/com/zhntd/train/notebook/R.java	/^        public static final int search=0x7f020013;$/;"	f	class:R.drawable
+search	gen/com/zhntd/train/notebook/R.java	/^        public static final int search=0x7f030006;$/;"	f	class:R.layout
+searchEdit	gen/com/zhntd/train/notebook/R.java	/^        public static final int searchEdit=0x7f07002b;$/;"	f	class:R.id
+searchEditText	src/com/zhntd/train/notebook/SearchActivity.java	/^	private EditText searchEditText;$/;"	f	class:SearchActivity	file:
+searchListView	gen/com/zhntd/train/notebook/R.java	/^        public static final int searchListView=0x7f07002d;$/;"	f	class:R.id
+searchListView	src/com/zhntd/train/notebook/SearchActivity.java	/^	private ListView searchListView;$/;"	f	class:SearchActivity	file:
+search_but_desc	gen/com/zhntd/train/notebook/R.java	/^        public static final int search_but_desc=0x7f040041;$/;"	f	class:R.string
+search_edit_hint	gen/com/zhntd/train/notebook/R.java	/^        public static final int search_edit_hint=0x7f040040;$/;"	f	class:R.string
+search_page	gen/com/zhntd/train/notebook/R.java	/^        public static final int search_page=0x7f040027;$/;"	f	class:R.string
+setAdapter	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private void setAdapter(Cursor cursor) {$/;"	m	class:RecordListActivity	file:
+setAdapter	src/com/zhntd/train/notebook/SearchActivity.java	/^	private void setAdapter(Cursor cursor) {$/;"	m	class:SearchActivity	file:
+setEmotionImage	src/com/zhntd/train/notebook/DetailActivity.java	/^	private void setEmotionImage(int emotion) {$/;"	m	class:DetailActivity	file:
+setListItemClick	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private void setListItemClick() {$/;"	m	class:RecordListActivity	file:
+setOnItemClickListener	src/com/zhntd/train/notebook/SearchActivity.java	/^	private void setOnItemClickListener() {$/;"	m	class:SearchActivity	file:
+showAlertDialog	src/com/zhntd/train/notebook/EditActivity.java	/^	private void showAlertDialog(int id, Intent i) {$/;"	m	class:EditActivity	file:
+showAlertDialog	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private void showAlertDialog(int id) {$/;"	m	class:RecordListActivity	file:
+showToast	src/com/zhntd/train/notebook/EditActivity.java	/^	private void showToast(int id) {$/;"	m	class:EditActivity	file:
+showToast	src/com/zhntd/train/notebook/LoginActivity.java	/^	private void showToast(int id) {$/;"	m	class:LoginActivity	file:
+showToast	src/com/zhntd/train/notebook/PwdSetingActivity.java	/^	private void showToast(int id) {$/;"	m	class:PwdSetingActivity	file:
+showToast	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private void showToast(int id) {$/;"	m	class:RecordListActivity	file:
+soundImageButton	src/com/zhntd/train/notebook/DetailActivity.java	/^	private ImageButton soundImageButton;$/;"	f	class:DetailActivity	file:
+soundImageButton	src/com/zhntd/train/notebook/EditActivity.java	/^	private ImageButton soundImageButton;$/;"	f	class:EditActivity	file:
+soundTextView	src/com/zhntd/train/notebook/EditActivity.java	/^	private TextView soundTextView;$/;"	f	class:EditActivity	file:
+soundUri	src/com/zhntd/train/notebook/EditActivity.java	/^	private String soundUri;$/;"	f	class:EditActivity	file:
+sounduri	src/com/zhntd/train/notebook/DetailActivity.java	/^	private String sounduri;$/;"	f	class:DetailActivity	file:
+star_0	gen/com/zhntd/train/notebook/R.java	/^        public static final int star_0=0x7f020014;$/;"	f	class:R.drawable
+star_1	gen/com/zhntd/train/notebook/R.java	/^        public static final int star_1=0x7f020015;$/;"	f	class:R.drawable
+star_2	gen/com/zhntd/train/notebook/R.java	/^        public static final int star_2=0x7f020016;$/;"	f	class:R.drawable
+star_3	gen/com/zhntd/train/notebook/R.java	/^        public static final int star_3=0x7f020017;$/;"	f	class:R.drawable
+star_4	gen/com/zhntd/train/notebook/R.java	/^        public static final int star_4=0x7f020018;$/;"	f	class:R.drawable
+star_5	gen/com/zhntd/train/notebook/R.java	/^        public static final int star_5=0x7f020019;$/;"	f	class:R.drawable
+startBackupOrRestoreThread	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private void startBackupOrRestoreThread(int index) {$/;"	m	class:RecordListActivity	file:
+startPwdSetActivity	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private void startPwdSetActivity() {$/;"	m	class:RecordListActivity	file:
+startQuery	src/com/zhntd/train/notebook/RecordListActivity.java	/^	private void startQuery() {$/;"	m	class:RecordListActivity	file:
+startQuery	src/com/zhntd/train/notebook/SearchActivity.java	/^	private void startQuery(String condition) {$/;"	m	class:SearchActivity	file:
+strBuffer	src/com/zhntd/train/notebook/RecordListActivity.java	/^		StringBuffer strBuffer = null;$/;"	f	class:RecordListActivity.BackupThread
+string	gen/com/zhntd/train/notebook/R.java	/^    public static final class string {$/;"	c	class:R
+strs	src/com/zhntd/train/notebook/RecordListActivity.java	/^		String[] strs;$/;"	f	class:RecordListActivity.RestoreThread
+style	gen/com/zhntd/train/notebook/R.java	/^    public static final class style {$/;"	c	class:R
+t	gen/com/zhntd/train/notebook/R.java	/^        public static final int t=0x7f02001a;$/;"	f	class:R.drawable
+t1	gen/com/zhntd/train/notebook/R.java	/^        public static final int t1=0x7f070006;$/;"	f	class:R.id
+t2	gen/com/zhntd/train/notebook/R.java	/^        public static final int t2=0x7f07000a;$/;"	f	class:R.id
+t3	gen/com/zhntd/train/notebook/R.java	/^        public static final int t3=0x7f07000e;$/;"	f	class:R.id
+t4	gen/com/zhntd/train/notebook/R.java	/^        public static final int t4=0x7f070012;$/;"	f	class:R.id
+t5	gen/com/zhntd/train/notebook/R.java	/^        public static final int t5=0x7f07001a;$/;"	f	class:R.id
+textView	gen/com/zhntd/train/notebook/R.java	/^        public static final int textView=0x7f070022;$/;"	f	class:R.id
+title	src/com/zhntd/train/notebook/DetailActivity.java	/^	private String title;$/;"	f	class:DetailActivity	file:
+titleEditText	src/com/zhntd/train/notebook/EditActivity.java	/^	private EditText titleEditText;$/;"	f	class:EditActivity	file:
+titleTextView	src/com/zhntd/train/notebook/DetailActivity.java	/^	private TextView titleTextView;$/;"	f	class:DetailActivity	file:
+tt	gen/com/zhntd/train/notebook/R.java	/^        public static final int tt=0x7f070021;$/;"	f	class:R.id
+update	src/com/zhntd/train/notebook/provider/NotebookProvider.java	/^	public int update(Uri uri, ContentValues values, String selection,$/;"	m	class:NotebookProvider
+uriMatcher	src/com/zhntd/train/notebook/provider/NotebookProvider.java	/^	public static final UriMatcher uriMatcher;$/;"	f	class:NotebookProvider
+v	gen/com/zhntd/train/notebook/R.java	/^        public static final int v=0x7f02001b;$/;"	f	class:R.drawable
+videoImageButton	src/com/zhntd/train/notebook/DetailActivity.java	/^	private ImageButton videoImageButton;$/;"	f	class:DetailActivity	file:
+videoImageButton	src/com/zhntd/train/notebook/EditActivity.java	/^	private ImageButton videoImageButton;$/;"	f	class:EditActivity	file:
+videoTextView	src/com/zhntd/train/notebook/EditActivity.java	/^	private TextView videoTextView;$/;"	f	class:EditActivity	file:
+videoUri	src/com/zhntd/train/notebook/EditActivity.java	/^	private String videoUri;$/;"	f	class:EditActivity	file:
+videouri	src/com/zhntd/train/notebook/DetailActivity.java	/^	private String videouri;$/;"	f	class:DetailActivity	file:
+watcher	src/com/zhntd/train/notebook/SearchActivity.java	/^	TextWatcher watcher = new TextWatcher() {$/;"	f	class:SearchActivity
+writer	src/com/zhntd/train/notebook/utils/FileOperation.java	/^	private BufferedWriter writer;$/;"	f	class:FileOperation	file:
+y	gen/com/zhntd/train/notebook/R.java	/^        public static final int y=0x7f02001c;$/;"	f	class:R.drawable
+z	gen/com/zhntd/train/notebook/R.java	/^        public static final int z=0x7f02001d;$/;"	f	class:R.drawable

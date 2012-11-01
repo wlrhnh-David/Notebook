@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="PrimaryTextStyle">
+        <item name="android:textSize">22dip</item>
+    </style>
+    <style name="SecondTextStyle">
+        <item name="android:textSize">20dip</item>
+    </style>
+    <style name="ThirdTextStyle">
+        <item name="android:textSize">16dip</item>
+    </style>
+</resources>
