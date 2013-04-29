@@ -63,5 +63,4 @@
             android:name="com.zhntd.train.notebook.provider.NotebookProvider" >
         </provider>
     </application>
-
 </manifest>
