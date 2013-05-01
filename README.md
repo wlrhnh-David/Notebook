@@ -1,2 +1,3 @@
 你好，地球
 早安，世界
+chinese food
