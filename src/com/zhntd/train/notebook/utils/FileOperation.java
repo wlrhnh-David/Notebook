@@ -99,5 +99,9 @@ public class FileOperation {
 			e.printStackTrace();
 		}
 	}
+	
+	public void emptyMethod () {
+		
+	}
 
 }
